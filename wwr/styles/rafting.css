@@ -1,0 +1,71 @@
+* {
+    margin: 15px;
+    padding: 0;
+    box-sizing: border-box;
+} 
+a{
+    text-decoration: none;
+    margin: 10px;
+}
+.hero{
+    position: relative;
+	font-family: 'Courier New', Courier, monospace;
+    margin: 10px auto;
+	position: relative; 
+}
+h1{
+    position: absolute;
+    bottom: 80%;
+    right: 25%;
+    color: #002B8F;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+    
+}
+article{
+    position: absolute;
+	bottom: 400px;
+	right: 15px;
+	background: radial-gradient(#eee, #3392FF);
+	border: 1px solid #000;
+	padding: 0.65rem;
+	box-shadow: 0 0 30px #111;
+	opacity: 0.9;
+    
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero article img{
+    float: right;
+	margin: 0 0 10px 15px;
+	border: 1px solid #000;
+	padding: 3px;
+	background-color: #bbb;
+	width: 250px;
+	height: auto;
+
+}
+
+h2 {
+    color: #0255CA;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}  
+section img{
+    display: block;
+}
