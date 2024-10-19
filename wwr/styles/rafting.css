@@ -175,7 +175,6 @@ footer{
     width: 40%;
     font-family: "Julee", cursive;
     font-weight: 400;
-    font-style: 25px;
     
 }
 .imagenes{
@@ -207,14 +206,13 @@ legend{
     color: #191A74;
     font-weight: 400;
     font-size: x-large;
-    font-style: 25px;
     margin: 15px;
     padding: 10px;
 }
 label{
     font-family: "Julee", cursive;
     font-weight: 400;
-    font-style: 25px;
+
 }
 input{
     margin-bottom: 15px;
