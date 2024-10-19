@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julee&family=Nosifer&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Guillermo Aguirre | HTML Form - User Poll</h1>
+
+    </header>
+
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Contac information</legend>
+                <label for="fullname">Full Nane:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">what is your favorite browser?</label>
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you have lived:</label>
+                <textarea name="feedback" id="feedback" rows="2" placeholder="Piura, Paita, Lima"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>©2024 | HTML Form - User Poll Activity | Guillermo Aguirre</p>
+
+    </footer>
+    
+</body>
+</html>

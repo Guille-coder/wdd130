@@ -9,7 +9,7 @@ body{
     background: #F9F7F7;
 }
 header{
-    margin: 1rem auto;
+    /* margin: 1rem auto; */
     display:grid;
     grid-template-columns: 120px 8fr 1fr;
     align-items:center;
@@ -23,12 +23,13 @@ header nav{
     
     
   }
-a{
+nav a{
     color:#191A74;
     font-family: "Nosifer", sans-serif;
     font-weight: 400;
     font-style: normal;
     text-decoration: none;
+    padding: 20px;
     
 }
 
@@ -39,7 +40,7 @@ a{
 	position: relative; 
     border: 1px solid #000;
 }
-h1{
+.hero h1{
     position: absolute;
     bottom: 80%;
     right: 25%;
@@ -50,6 +51,7 @@ h1{
     font-size: 65px;
     font-style: normal;
     text-align: center;   
+    
 }
 article{
     position: absolute;
@@ -143,8 +145,93 @@ footer{
     border: 1px solid #000;
     font-family: "Julee", cursive;
     font-weight: 400;
+    font-style: normal;   
+} 
+
+/* contact us */
+.about{
+    border: 1px solid #000;
+
+}
+.about h1{
+    color: #191A74;
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
     font-style: normal;
-     
-}  
+    text-align: center; 
+    margin-bottom: 150px;
+}
+.maps {
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 35px;
+    margin-top: -205px;
+    margin-bottom: 5px;
+}
+.about p{
 
+    text-align: center;
+    width: 40%;
+    font-family: "Julee", cursive;
+    font-weight: 400;
+    font-style: 25px;
+    
+}
+.imagenes{
 
+    border: 1px solid #000;
+}
+.imagenes div{
+    display: flex;
+    justify-content: space-around;
+}
+.imagenes img{
+    max-width: 400px;
+    max-height: 300px;
+    margin-bottom: 0%;
+    margin-top: 55px;
+
+}
+.formulario{
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 850px;
+
+}
+legend{
+    font-family: "Julee", cursive;
+    color: #191A74;
+    font-weight: 400;
+    font-size: x-large;
+    font-style: 25px;
+    margin: 15px;
+    padding: 10px;
+}
+label{
+    font-family: "Julee", cursive;
+    font-weight: 400;
+    font-style: 25px;
+}
+input{
+    margin-bottom: 15px;
+}
+button {
+    margin: 1rem;
+    background-color:#191A74;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+  
+button:hover {
+    background-color:#004529;
+}
+footer p a{
+    color: white;
+}
