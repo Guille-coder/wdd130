@@ -23,7 +23,7 @@ header nav{
     
     
   }
-nav a{
+header nav a{
     color:#191A74;
     font-family: "Nosifer", sans-serif;
     font-weight: 400;
@@ -37,7 +37,6 @@ nav a{
     position: relative;
 	font-family: 'Courier New', Courier, monospace;
     margin: 10px auto;
-	position: relative; 
     border: 1px solid #000;
 }
 .hero h1{
@@ -89,7 +88,7 @@ h2 {
     font-style: normal;
     font-size: 35px;
     
-}
+} 
 
 .history {
     border: 1px solid #000;    
@@ -128,12 +127,13 @@ figcaption {
     background-color: #F9F7F7;
     color: #082d5a;
     font-family: "Julee", cursive;
+    font-size: x-large;
     font-weight: 400;
     font-style: normal;
     padding: 3px;
-    text-align: center;
+    text-align: center; 
     margin-top: 0%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 footer{
     display: flex;
@@ -146,6 +146,7 @@ footer{
     font-family: "Julee", cursive;
     font-weight: 400;
     font-style: normal;   
+    clear: both;
 } 
 
 /* contact us */
@@ -192,6 +193,9 @@ footer{
     margin-top: 55px;
 
 }
+.imagenes figcaption{
+    border: 1px solid #000;
+}
 .formulario{
     border: 1px solid #000;
     display: flex;
@@ -233,3 +237,181 @@ button:hover {
 footer p a{
     color: white;
 }
+/* index */
+.introduce{
+    position: relative;
+    /* margin: 10px auto; */
+}
+
+.introduce h1{
+    position: absolute; 
+    /* text-align: center; */
+    bottom: 85%;
+    right: 20%; 
+    color: #0508a5;
+    font-family: "Nosifer", sans-serif; 
+    font-weight: 400;
+    font-size: 65px;
+    font-style: normal;
+}
+.introduce img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.information {
+    position: sticky;
+    top: 50px;
+    bottom: 50px;
+    float: right;
+    border: 1px solid #000;
+    width: 25%;
+    background-color: #eee;
+    opacity: 0.7;
+}  
+.call_adventure{
+    display: flex;
+    justify-content: space-around;
+    clear: both;
+}
+.call_adventure img{
+    max-width: 400px;
+    max-height: 300px;
+    margin-bottom: 0%;
+    margin-top: 55px;
+}
+.color{
+    border: 4px solid #191A74;
+    
+}
+.call_adventure figcaption{
+    text-decoration: none;
+}
+.call_adventure figcaption:hover{
+    background:#018f56;
+    
+
+}
+.call_adventure a{
+    text-decoration: none;
+}
+.detail{
+    width: 75vw;
+	margin: 1rem auto;
+	background-color: #004529;
+    color: white;
+	padding: 1rem;
+	border: 1px solid rgba(0,0,0,.1);
+}
+section h2{
+    text-align: start;
+}
+
+.details p{
+    text-decoration: unset;
+}
+
+.details img{
+
+    display: grid;
+    grid-template-columns: 500px;
+    float: right;
+    max-width: 400px;
+    max-height: 300px;  
+
+    margin-bottom: 75px;
+    margin-right: 75px;
+}
+/* Trips */
+.column{
+    display:flex;
+    margin:10px
+}
+.column p{
+
+    background:#004529;
+    color:white;
+    font-family: "Julee", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding:30px;
+    width:90%;
+    margin:10px;
+    text-align: center;
+}
+.column img{
+    max-width: 300px;
+    max-height: 300px; 
+}
+.imagen1{
+    float: left;
+}
+.imagen2{
+    float: right;
+}
+.places{
+    position:relative;
+}
+.places a{
+    position: absolute;
+    background:white;
+    text-decoration: none;
+    color: #191A74;
+    font-family: "Julee", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    padding:25px;
+    top:43%;
+    left:45.5%;
+}
+.places a:hover{
+    color: white;
+    background: #191A74;
+}
+.title-trips{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    color: #191A74;
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    /* font-size: 65px; */
+    font-style: normal; 
+}
+.table{
+    display: flex;
+    justify-content: space-around; 
+    text-align: center;
+}
+.colums-table{
+    background: white;
+    margin: 15px;
+    border: 1px solid #000;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: 5px 5px #191A74;
+}
+.colums-table p{
+    padding: 15px;
+}
+.fecha{
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    /* font-size: 65px; */
+    font-style: normal; 
+}
+.reserve{
+    background-color: #004529;
+    color: white;
+    display:block;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.reserve:hover{
+    background-color: #191A74;
+}
+  
