@@ -281,16 +281,13 @@ footer p a{
     margin-top: 55px;
 }
 .color{
-    border: 4px solid #191A74;
+    border: 10px solid #191A74;
+    border-radius: 6px;
     
 }
-.call_adventure figcaption{
-    text-decoration: none;
-}
-.call_adventure figcaption:hover{
-    background:#018f56;
-    
-
+.color:hover{
+    border: 9px solid #004529;
+    border-radius: 5px;
 }
 .call_adventure a{
     text-decoration: none;
@@ -383,6 +380,8 @@ section h2{
     display: flex;
     justify-content: space-around; 
     text-align: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
 }
 .colums-table{
     background: white;
